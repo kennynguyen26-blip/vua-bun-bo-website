@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vua Bún Bò — King of Bún Bò Huế. Authentic Vietnamese spicy beef noodle soup in Houston, TX.">
+  <title>Vua Bún Bò — King of Bún Bò Huế | Houston, TX</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%231a1210'/><text x='50%25' y='54' font-size='44' text-anchor='middle'>🐂</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Be+Vietnam+Pro:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Suppress splash flash if language already chosen -->
+  <script>if(localStorage.getItem('lang'))document.documentElement.dataset.langSet='1';</script>
+</head>
+<body>
+
+  <!-- =========================================================
+       NAVIGATION
+  ========================================================= -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo.jpg" class="logo-img" alt="Vua Bún Bò logo">
+        <span class="nav-logo-text">Vua Bún Bò</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" role="list">
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#menu" data-i18n="nav.menu">Menu</a></li>
+        <li><a href="#gallery" data-i18n="nav.gallery">Gallery</a></li>
+        <li><a href="#reviews" data-i18n="nav.reviews">Reviews</a></li>
+        <li><a href="#location" data-i18n="nav.location">Location</a></li>
+        <li><button class="nav-cta" data-order-modal data-i18n="nav.order">Order Now</button></li>
+      </ul>
+      <button id="lang-toggle" class="lang-btn" aria-label="Toggle language">
+        <span class="lang-opt" data-lang="en">EN</span>
+        <span class="lang-sep">|</span>
+        <span class="lang-opt" data-lang="vi">VI</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- =========================================================
+       HERO
+  ========================================================= -->
+  <section id="hero">
+    <div class="hero-bg" style="background-image:url('images/hero-cover.jpg')"></div>
+    <div class="hero-overlay"></div>
+
+    <!-- Floating steam particles -->
+    <div class="steam-wrap" aria-hidden="true">
+      <div class="steam s1"></div><div class="steam s2"></div><div class="steam s3"></div>
+      <div class="steam s4"></div><div class="steam s5"></div><div class="steam s6"></div>
+      <div class="steam s7"></div><div class="steam s8"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-logo-mark" aria-hidden="true">
+        <img src="images/logo.jpg" class="logo-img" alt="Vua Bún Bò logo">
+      </div>
+      <p class="hero-pretitle" data-i18n="hero.pretitle">Houston's Finest</p>
+      <h1 class="hero-title">Vua Bún Bò</h1>
+      <p class="hero-tagline" data-i18n="hero.tagline">King of Bún Bò Huế — Authentic Vietnamese Since Day One</p>
+      <div class="hero-ctas">
+        <a href="#menu" class="btn btn-gold" data-i18n="hero.viewMenu">View Menu</a>
+        <button class="btn btn-outline" data-order-modal data-i18n="nav.order">Order Now</button>
+      </div>
+    </div>
+    <a href="#about" class="hero-scroll-hint" aria-label="Scroll down">
+      <span class="scroll-arrow"></span>
+    </a>
+  </section>
+
+  <!-- =========================================================
+       ABOUT
+  ========================================================= -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text" data-reveal>
+          <span class="section-label" data-i18n="about.label">Our Story</span>
+          <h2 class="section-title" data-i18n="about.title">Comfort in Every Bowl</h2>
+          <p data-i18n-html="about.p1">At <strong>Vua Bún Bò</strong>, we bring the soul of Huế, Vietnam straight to Houston. Bún Bò Huế is more than a soup — it's a tradition, a ritual, a warm embrace. Born in the imperial city of Huế, this rich, spicy broth has been perfected over centuries, and we honor every detail of that heritage.</p>
+          <p data-i18n="about.p2">Whether you're joining us solo for a quick lunch, sharing a table with family, or feeding a whole group, our kitchen is open — cozy enough for one, spacious enough for all. Dine-in or take it home. Either way, every bowl is made with care.</p>
+          <div class="about-badges">
+            <div class="badge">
+              <span class="badge-icon">🍜</span>
+              <span data-i18n="about.badge1">Dine-In &amp; Takeout</span>
+            </div>
+            <div class="badge">
+              <span class="badge-icon">👨‍👩‍👧‍👦</span>
+              <span data-i18n="about.badge2">Family Friendly</span>
+            </div>
+            <div class="badge">
+              <span class="badge-icon">🚗</span>
+              <span data-i18n="about.badge3">Free Parking</span>
+            </div>
+            <div class="badge">
+              <span class="badge-icon">♿</span>
+              <span data-i18n="about.badge4">Accessible</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-visual" data-reveal data-reveal-delay="200">
+          <div class="rating-card">
+            <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+            <div class="rating-score">4.3</div>
+            <div class="rating-count" data-i18n="about.reviewCount">226 Reviews</div>
+            <p class="rating-quote" data-i18n="about.ratingQuote">"One of the best spots for authentic Vietnamese comfort food."</p>
+          </div>
+          <div class="about-img-stack">
+            <img src="images/about-bowl.jpg" alt="Bowl of Bún Bò Huế" loading="lazy">
+            <div class="about-img-accent"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       SIGNATURE BOWL — scroll-driven video
+  ========================================================= -->
+  <section id="signature-bowl">
+    <div class="vid-sticky">
+
+      <!-- Background video (scroll-driven) -->
+      <video id="bowl-video" src="images/bun-bo-explode.mp4"
+             muted playsinline preload="auto" tabindex="-1"
+             aria-hidden="true"></video>
+
+      <!-- Vignette — blends edges into site background -->
+      <div class="vid-vignette" aria-hidden="true"></div>
+
+      <!-- Section header -->
+      <div class="vid-header">
+        <span class="section-label" data-i18n="sig.label">Our Craft</span>
+        <h2 class="section-title" data-i18n="sig.title">Our Signature Bowl</h2>
+      </div>
+
+      <!-- Ingredient labels -->
+      <div class="vid-labels" aria-hidden="true">
+
+        <!-- Left side labels -->
+        <div class="vid-label vid-label-left" id="vl-broth">
+          <div class="vid-label-text">
+            <strong>18-Hour Bone Broth</strong>
+            <span data-i18n="sig.broth.sub">Lemongrass, shrimp paste &amp; chili</span>
+          </div>
+          <div class="vid-connector"><span class="vid-line"></span><span class="vid-dot"></span></div>
+        </div>
+
+        <div class="vid-label vid-label-left" id="vl-shank">
+          <div class="vid-label-text">
+            <strong>Beef Shank (Bắp Bò)</strong>
+            <span data-i18n="sig.shank.sub">Braised until fall-apart tender</span>
+          </div>
+          <div class="vid-connector"><span class="vid-line"></span><span class="vid-dot"></span></div>
+        </div>
+
+        <div class="vid-label vid-label-left" id="vl-meatball">
+          <div class="vid-label-text">
+            <strong>Pork Meatball</strong>
+            <span data-i18n="sig.meatball.sub">Bouncy &amp; savory, made fresh daily</span>
+          </div>
+          <div class="vid-connector"><span class="vid-line"></span><span class="vid-dot"></span></div>
+        </div>
+
+        <div class="vid-label vid-label-left" id="vl-noodles">
+          <div class="vid-label-text">
+            <strong>Rice Noodles (Bún)</strong>
+            <span data-i18n="sig.noodles.sub">Round bún, perfectly al dente</span>
+          </div>
+          <div class="vid-connector"><span class="vid-line"></span><span class="vid-dot"></span></div>
+        </div>
+
+        <div class="vid-label vid-label-left" id="vl-chili">
+          <div class="vid-label-text">
+            <strong>Chili Oil</strong>
+            <span data-i18n="sig.chili.sub">House-made annatto chili oil</span>
+          </div>
+          <div class="vid-connector"><span class="vid-line"></span><span class="vid-dot"></span></div>
+        </div>
+
+        <!-- Right side labels -->
+        <div class="vid-label vid-label-right" id="vl-knuckle">
+          <div class="vid-connector"><span class="vid-dot"></span><span class="vid-line vid-line-r"></span></div>
+          <div class="vid-label-text">
+            <strong>Pork Knuckle (Giò Heo)</strong>
+            <span data-i18n="sig.knuckle.sub">Slow-braised, fall-off-the-bone</span>
+          </div>
+        </div>
+
+        <div class="vid-label vid-label-right" id="vl-loaf">
+          <div class="vid-connector"><span class="vid-dot"></span><span class="vid-line vid-line-r"></span></div>
+          <div class="vid-label-text">
+            <strong>Pork Loaf (Chả Huế)</strong>
+            <span data-i18n="sig.loaf.sub">Traditional Huế-style pork loaf</span>
+          </div>
+        </div>
+
+        <div class="vid-label vid-label-right" id="vl-blood">
+          <div class="vid-connector"><span class="vid-dot"></span><span class="vid-line vid-line-r"></span></div>
+          <div class="vid-label-text">
+            <strong>Blood Cake (Huyết)</strong>
+            <span data-i18n="sig.blood.sub">Silky &amp; rich — a true tradition</span>
+          </div>
+        </div>
+
+        <div class="vid-label vid-label-right" id="vl-scallion">
+          <div class="vid-connector"><span class="vid-dot"></span><span class="vid-line vid-line-r"></span></div>
+          <div class="vid-label-text">
+            <strong>Scallions &amp; Onions</strong>
+            <span data-i18n="sig.scallion.sub">Fresh, bright, aromatic finish</span>
+          </div>
+        </div>
+
+      </div><!-- /.vid-labels -->
+
+      <!-- Scroll progress hint -->
+      <div class="vid-progress-wrap" aria-hidden="true">
+        <div class="vid-progress-track">
+          <div class="vid-progress-fill" id="vid-progress"></div>
+        </div>
+        <span class="vid-scroll-text" data-i18n="sig.scroll">Scroll to explore</span>
+      </div>
+
+    </div><!-- /.vid-sticky -->
+  </section>
+
+  <!-- =========================================================
+       MENU
+  ========================================================= -->
+  <section id="menu" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label" data-i18n="menu.label">The Menu</span>
+        <h2 class="section-title" data-i18n="menu.title">What We're Serving</h2>
+        <p class="section-sub" data-i18n="menu.sub">Made fresh daily from the finest ingredients</p>
+        <div class="gratuity-notice" data-i18n="menu.gratuity">Parties of 6 or more — 15% gratuity added</div>
+      </div>
+
+      <!-- Tab Navigation -->
+      <div class="menu-tabs-wrap" data-reveal>
+        <div class="menu-tabs" role="tablist" aria-label="Menu categories">
+          <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="panel-house" data-target="panel-house" data-i18n="menu.tab.house">House Specials</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-bunbo" data-target="panel-bunbo">Bún Bò Huế</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-banhmi" data-target="panel-banhmi">Bánh Mì &amp; Stews</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-hutieu" data-target="panel-hutieu">Hủ Tiếu &amp; Bánh Canh</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-kids" data-target="panel-kids" data-i18n="menu.tab.kids">Kids</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-sides" data-target="panel-sides" data-i18n="menu.tab.sides">Sides</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-extras" data-target="panel-extras" data-i18n="menu.tab.extras">Extras</button>
+          <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panel-drinks" data-target="panel-drinks" data-i18n="menu.tab.drinks">Drinks</button>
+        </div>
+      </div>
+
+      <!-- PANEL: House Specials -->
+      <div class="menu-panel active" id="panel-house" role="tabpanel">
+        <div class="food-grid">
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/vua-bun-dac-biet.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.house">House Special</div>
+              <h3 class="food-name">Vua Bun Dac Biet</h3>
+              <p class="food-desc" data-i18n="desc.vua-bun-dac-biet">House special — the extra large bowl of bún bò with your choice of bone marrow or beef bone, or upgrade to a beef rib.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">+Bone Marrow/Beef Bone: $23</span>
+                <span class="food-price">+Beef Rib: $25</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANEL: Bún Bò Huế -->
+      <div class="menu-panel" id="panel-bunbo" role="tabpanel">
+        <div class="food-grid">
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/the-original-hue.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.bunbo">Bún Bò Huế</div>
+              <h3 class="food-name">The Original (Huế)</h3>
+              <p class="food-desc" data-i18n="desc.the-original">Giò Heo, Chả Huế, Bắp Bò, Huyết, Giò Sống — Pork Leg, Pork Loaf, Beef Shank, Pork Blood Cake and Pork Meat Ball.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Small: $13.50</span>
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="100">
+            <div class="food-img-wrap">
+              <img src="images/the-meats-nam.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.bunbo">Bún Bò Huế</div>
+              <h3 class="food-name">The Meats (Nam)</h3>
+              <p class="food-desc" data-i18n="desc.the-meats">Thịt Tái, Bắp Bò, Nạm, Gân, Filet Mignon, Beef Shank, Beef Flank, and Tendon.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Small: $13.50</span>
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="200">
+            <div class="food-img-wrap">
+              <img src="images/bun-bo-vien.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.bunbo">Bún Bò Huế</div>
+              <h3 class="food-name">Bún Bò Viên</h3>
+              <p class="food-desc" data-i18n="desc.bun-bo-vien">Fresh House-made Beef Balls in our signature Huế-style spicy lemongrass broth.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Small: $13.50</span>
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANEL: Bánh Mì & Stews -->
+      <div class="menu-panel" id="panel-banhmi" role="tabpanel">
+        <div class="food-grid">
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/banh-mi-bo-kho.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.banhmi">Bánh Mì &amp; Stews</div>
+              <h3 class="food-name">Bánh Mì Bò Kho</h3>
+              <p class="food-desc" data-i18n="desc.banh-mi-bo-kho">Crusty French baguette served with slow-braised, aromatic Beef Stew. A Vietnamese classic.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="100">
+            <div class="food-img-wrap">
+              <img src="images/hu-tieu-mi-bo-kho.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.banhmi">Bánh Mì &amp; Stews</div>
+              <h3 class="food-name">Hủ Tiếu / Mì Bò Kho</h3>
+              <p class="food-desc" data-i18n="desc.hu-tieu-mi-bo-kho">Pho Noodles or Egg Noodles served in a rich, slow-cooked Beef Stew. Hearty and warming.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANEL: Hủ Tiếu & Bánh Canh -->
+      <div class="menu-panel" id="panel-hutieu" role="tabpanel">
+        <div class="food-grid">
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/hu-tieu-mi-thap-cam.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.hutieu">Hủ Tiếu</div>
+              <h3 class="food-name">Hủ Tiếu / Mì Thập Cẩm</h3>
+              <p class="food-desc" data-i18n="desc.hu-tieu-mi-thap-cam">Pho Noodles or Egg Noodles with Fish Filet, Fish Balls, Shrimp, and Pork Shank.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="100">
+            <div class="food-img-wrap">
+              <img src="images/hu-tieu-mi-bo-vien.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.hutieu">Hủ Tiếu</div>
+              <h3 class="food-name">Hủ Tiếu / Mì Bò Viên</h3>
+              <p class="food-desc" data-i18n="desc.hu-tieu-mi-bo-vien">Pho Noodles or Egg Noodles with Fresh House-made Beef Balls.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="200">
+            <div class="food-img-wrap">
+              <img src="images/banh-canh-trang-bang.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.banhcanh">Bánh Canh</div>
+              <h3 class="food-name">Bánh Canh Trảng Bàng</h3>
+              <p class="food-desc" data-i18n="desc.banh-canh-trang-bang">Big rice noodles with Pork Leg, Pork Shank, and Pork Blood Cake.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Small: $13.50</span>
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="300">
+            <div class="food-img-wrap">
+              <img src="images/banh-canh-thap-cam.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.banhcanh">Bánh Canh</div>
+              <h3 class="food-name">Bánh Canh Thập Cẩm</h3>
+              <p class="food-desc" data-i18n="desc.banh-canh-thap-cam">Big rice noodles with Fish Filet, Fish Balls, Shrimp, and Pork Shank.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Small: $13.50</span>
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/soup-nui-suon.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.soup">Soup</div>
+              <h3 class="food-name">Soup Nui Sườn</h3>
+              <p class="food-desc" data-i18n="desc.soup-nui-suon">Macaroni Soup with tender Pork Cartilage and Pork Meatballs. Comforting and rich.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Small: $13.50</span>
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="100">
+            <div class="food-img-wrap">
+              <img src="images/hu-tieu-ca.jpg" loading="lazy" alt="Hủ Tiếu Cá">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.hutieu">Hủ Tiếu</div>
+              <h3 class="food-name">Hủ Tiếu Cá</h3>
+              <p class="food-desc" data-i18n="desc.hu-tieu-ca">Pho Noodles served in a delicate clear broth with fresh Fish Filet.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Large: $15.00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANEL: Kids -->
+      <div class="menu-panel" id="panel-kids" role="tabpanel">
+        <div class="food-grid food-grid-narrow">
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/kid-bun-bo.jpg" loading="lazy" alt="Kid Bún Bò">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.kids">Kids Menu</div>
+              <h3 class="food-name">Kid Bún Bò — Không Cay</h3>
+              <p class="food-desc" data-i18n="desc.kid-bun-bo">Kid-sized Beef Noodle Soup, made non-spicy so little ones can enjoy the flavor of Bún Bò Huế too.</p>
+              <div class="food-price-wrap">
+                <span class="food-price">Small: $8.00</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANEL: Sides -->
+      <div class="menu-panel" id="panel-sides" role="tabpanel">
+        <div class="food-grid">
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/bowl-of-xi-quach.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.sides">Sides</div>
+              <h3 class="food-name">Bát Xí Quách</h3>
+              <p class="food-desc" data-i18n="desc.bat-xi-quach">Bowl of slow-braised Beef Bone. Rich marrow, deep flavor.</p>
+              <div class="food-price-wrap"><span class="food-price">$8.00</span></div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="100">
+            <div class="food-img-wrap">
+              <img src="images/suon-bo.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.sides">Sides</div>
+              <h3 class="food-name">Sườn Bò</h3>
+              <p class="food-desc" data-i18n="desc.suon-bo">A single juicy Beef Rib — perfect to add to any bowl or enjoy on its own.</p>
+              <div class="food-price-wrap"><span class="food-price">$10.00</span></div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="200">
+            <div class="food-img-wrap">
+              <img src="images/chen-tuy.jpg" loading="lazy" alt="Chén Tủy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.sides">Sides</div>
+              <h3 class="food-name">Chén Tủy</h3>
+              <p class="food-desc" data-i18n="desc.chen-tuy">Silky Bone Marrow — a luxurious add-on. Stir into your broth for extra richness.</p>
+              <div class="food-price-wrap"><span class="food-price">$6.00</span></div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal data-reveal-delay="300">
+            <div class="food-img-wrap">
+              <img src="images/chen-trung-tuy.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.sides">Sides</div>
+              <h3 class="food-name">Chén Trứng Tủy</h3>
+              <p class="food-desc" data-i18n="desc.chen-trung-tuy">Egg and Bone Marrow Shot. A unique, indulgent bite — a Vua Bún Bò signature.</p>
+              <div class="food-price-wrap"><span class="food-price">$7.00</span></div>
+            </div>
+          </div>
+
+          <div class="food-card" data-reveal>
+            <div class="food-img-wrap">
+              <img src="images/chen-bo-vien.jpg" loading="lazy">
+
+            </div>
+            <div class="food-info">
+              <div class="food-tag" data-i18n="tag.sides">Sides</div>
+              <h3 class="food-name">Chén Bò Viên</h3>
+              <p class="food-desc" data-i18n="desc.chen-bo-vien">Bowl of fresh House-made Beef Balls. Bouncy, savory, made from scratch daily.</p>
+              <div class="food-price-wrap"><span class="food-price">$6.00</span></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- PANEL: Extras -->
+      <div class="menu-panel" id="panel-extras" role="tabpanel">
+        <ul class="menu-list" data-reveal>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Bánh Mì</span>
+              <span class="menu-list-sub" data-i18n="extra.banh-mi">French bread</span>
+            </div>
+            <span class="menu-list-price">$2.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Rau</span>
+              <span class="menu-list-sub" data-i18n="extra.rau">Fresh herb &amp; veggie plate</span>
+            </div>
+            <span class="menu-list-prices">
+              <span>Small $2.00</span>
+              <span>Large $4.00</span>
+            </span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Bún</span>
+              <span class="menu-list-sub" data-i18n="extra.bun">Extra rice vermicelli noodles</span>
+            </div>
+            <span class="menu-list-price">$3.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Dầu Chào Quẩy</span>
+              <span class="menu-list-sub" data-i18n="extra.dau-chao-quay">Chinese Donut — golden fried dough, perfect for dipping</span>
+            </div>
+            <span class="menu-list-prices">
+              <span>1 pc $2.00</span>
+              <span>2 pcs $4.00</span>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- PANEL: Drinks -->
+      <div class="menu-panel" id="panel-drinks" role="tabpanel">
+        <ul class="menu-list" data-reveal>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Cà Phê Sữa Đá</span>
+              <span class="menu-list-sub" data-i18n="drink.ca-phe-sua-da">Vietnamese iced milk coffee — strong, sweet, creamy</span>
+            </div>
+            <span class="menu-list-price">$5.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Cà Phê Đen Đá</span>
+              <span class="menu-list-sub" data-i18n="drink.ca-phe-den">Vietnamese iced black coffee — bold and intense</span>
+            </div>
+            <span class="menu-list-price">$4.50</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Trà Đá</span>
+              <span class="menu-list-sub" data-i18n="drink.tra-da">House iced tea — refreshing and light</span>
+            </div>
+            <span class="menu-list-price">$1.50</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Thai Milk Tea</span>
+              <span class="menu-list-sub" data-i18n="drink.thai-milk-tea">Creamy and sweet Thai-style milk tea</span>
+            </div>
+            <span class="menu-list-price">$5.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Rau Má</span>
+              <span class="menu-list-sub" data-i18n="drink.rau-ma">Fresh Pennywort juice — with or without ice</span>
+            </div>
+            <span class="menu-list-prices">
+              <span>w/o ice $5.00</span>
+              <span>w/ ice $6.00</span>
+            </span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Cam Vắt</span>
+              <span class="menu-list-sub" data-i18n="drink.cam-vat">Fresh-squeezed orange juice — with or without ice</span>
+            </div>
+            <span class="menu-list-prices">
+              <span>w/o ice $5.00</span>
+              <span>w/ ice $6.00</span>
+            </span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Soda Xí Muội</span>
+              <span class="menu-list-sub" data-i18n="drink.soda-xi-muoi">Salted Plum Soda — tangy, sweet, and refreshing</span>
+            </div>
+            <span class="menu-list-price">$5.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Berry Lemonade / Soda</span>
+              <span class="menu-list-sub" data-i18n="drink.berry-lemonade">Fruity, zingy, and vibrant</span>
+            </div>
+            <span class="menu-list-price">$5.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Bình Trà Nóng</span>
+              <span class="menu-list-sub" data-i18n="drink.binh-tra-nong">Hot teapot</span>
+            </div>
+            <span class="menu-list-price">$3.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Atiso</span>
+              <span class="menu-list-sub" data-i18n="drink.atiso">Artichoke drink</span>
+            </div>
+            <span class="menu-list-price">$4.50</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Sữa Đậu Nành</span>
+              <span class="menu-list-sub" data-i18n="drink.sua-dau-nanh">Soy milk</span>
+            </div>
+            <span class="menu-list-price">$3.50</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Soda Chanh Muối</span>
+              <span class="menu-list-sub" data-i18n="drink.soda-chanh-muoi">Salted lemon soda</span>
+            </div>
+            <span class="menu-list-price">$5.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Lemonade</span>
+            </div>
+            <span class="menu-list-price">$5.00</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Coke, Sprite</span>
+            </div>
+            <span class="menu-list-price">$2.50</span>
+          </li>
+          <li class="menu-list-row">
+            <div class="menu-list-main">
+              <span class="menu-list-name">Nước Suối</span>
+              <span class="menu-list-sub">Bottled water</span>
+            </div>
+            <span class="menu-list-price">$2.00</span>
+          </li>
+        </ul>
+      </div><!-- end drinks panel -->
+
+    </div><!-- end container -->
+  </section>
+
+  <!-- =========================================================
+       GALLERY
+  ========================================================= -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label" data-i18n="gallery.label">Gallery</span>
+        <h2 class="section-title" data-i18n="gallery.title">A Feast for the Eyes</h2>
+      </div>
+      <div class="gallery-coming-soon" data-reveal>
+        <div class="gallery-cs-icon">📸</div>
+        <h3 class="gallery-cs-heading" data-i18n="gallery.cs.heading">Gallery Coming Soon</h3>
+        <p class="gallery-cs-sub" data-i18n="gallery.cs.sub">We're putting together something beautiful. Check back soon for photos of our bowls, our space, and the stories behind every dish.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       REVIEWS
+  ========================================================= -->
+  <section id="reviews" class="section section-dark">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label" data-i18n="reviews.label">What People Say</span>
+        <h2 class="section-title" data-i18n="reviews.title">Our Guests Love It</h2>
+        <div class="review-summary">
+          <span class="review-stars">⭐⭐⭐⭐⭐</span>
+          <span class="review-avg">4.3 / 5</span>
+          <span class="review-total" data-i18n="reviews.count">226 Reviews</span>
+        </div>
+      </div>
+
+      <div class="reviews-carousel-wrap" data-reveal>
+        <div class="reviews-carousel" id="reviewsCarousel">
+
+          <div class="review-card">
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+            <blockquote class="review-text">"The Huế/Nam-style beef noodles here are phenomenal. The flavor is very authentic."</blockquote>
+            <div class="review-author">
+              <div class="review-avatar">QT</div>
+              <div>
+                <div class="review-name">Quang Tran</div>
+                <div class="review-via">via Google</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+            <blockquote class="review-text">"One of the best spots for authentic Vietnamese comfort food. Their Bún Bò Huế is the star of the show."</blockquote>
+            <div class="review-author">
+              <div class="review-avatar">TD</div>
+              <div>
+                <div class="review-name">Tri Dinh</div>
+                <div class="review-via">via Google</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+            <blockquote class="review-text">"Some of the best Bun Bo Hue we've ever had! The broth is rich and flavorful."</blockquote>
+            <div class="review-author">
+              <div class="review-avatar">M</div>
+              <div>
+                <div class="review-name">Mercedes</div>
+                <div class="review-via">via Google</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="review-card">
+            <div class="review-stars">⭐⭐⭐⭐⭐</div>
+            <blockquote class="review-text">"Delicious authentic Vietnamese flavors. Their Bun Bo Hue is a game-changer."</blockquote>
+            <div class="review-author">
+              <div class="review-avatar">ND</div>
+              <div>
+                <div class="review-name">Nam Do</div>
+                <div class="review-via">via Google</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-controls">
+          <button class="carousel-btn prev" aria-label="Previous review">&#8592;</button>
+          <div class="carousel-dots" aria-label="Review indicators">
+            <button class="dot active" aria-label="Review 1"></button>
+            <button class="dot" aria-label="Review 2"></button>
+            <button class="dot" aria-label="Review 3"></button>
+            <button class="dot" aria-label="Review 4"></button>
+          </div>
+          <button class="carousel-btn next" aria-label="Next review">&#8594;</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =========================================================
+       LOCATION & HOURS
+  ========================================================= -->
+  <section id="location" class="section">
+    <div class="container">
+      <div class="section-header" data-reveal>
+        <span class="section-label" data-i18n="location.label">Find Us</span>
+        <h2 class="section-title" data-i18n="location.title">Location &amp; Hours</h2>
+      </div>
+      <div class="location-grid">
+        <div class="location-info" data-reveal>
+
+          <div class="info-block">
+            <div class="info-icon">📍</div>
+            <div>
+              <h3 data-i18n="location.address.h">Address</h3>
+              <p>11800 Bellaire Blvd<br>Houston, TX 77072</p>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <div class="info-icon">📞</div>
+            <div>
+              <h3 data-i18n="location.phone.h">Phone</h3>
+              <p><a href="tel:3464092336">(346) 409-2336</a></p>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <div class="info-icon">🕐</div>
+            <div>
+              <h3 data-i18n="location.hours.h">Hours</h3>
+              <div class="hours-table">
+                <div class="hours-row">
+                  <span class="hours-day" data-i18n="location.hours.mon-wed">Mon – Wed</span>
+                  <span class="hours-time" data-i18n="location.hours.time">9:00 AM – 5:00 PM</span>
+                </div>
+                <div class="hours-row closed">
+                  <span class="hours-day" data-i18n="location.hours.thu">Thursday</span>
+                  <span class="hours-time" data-i18n="location.hours.closed">Closed</span>
+                </div>
+                <div class="hours-row">
+                  <span class="hours-day" data-i18n="location.hours.fri-sun">Fri – Sun</span>
+                  <span class="hours-time" data-i18n="location.hours.time">9:00 AM – 5:00 PM</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="info-block">
+            <div class="info-icon">🍽️</div>
+            <div>
+              <h3 data-i18n="location.services.h">Services</h3>
+              <ul class="services-list">
+                <li data-i18n="location.s1">✓ Dine-In</li>
+                <li data-i18n="location.s2">✓ Takeout</li>
+                <li data-i18n="location.s3">✓ No-Contact Delivery</li>
+                <li data-i18n="location.s4">✓ Wheelchair Accessible</li>
+                <li data-i18n="location.s5">✓ Free Parking Lot</li>
+                <li data-i18n="location.s6">✓ Free Street Parking</li>
+              </ul>
+            </div>
+          </div>
+
+          <button class="btn btn-gold btn-full" data-order-modal data-i18n="nav.order">Order Now</button>
+        </div>
+
+        <div class="location-map" data-reveal data-reveal-delay="200">
+          <iframe
+            title="Vua Bún Bò location on Google Maps"
+            src="https://maps.google.com/maps?q=11800+Bellaire+Blvd+Houston+TX+77072&output=embed"
+            width="100%"
+            height="480"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================
+       FOOTER
+  ========================================================= -->
+  <footer id="footer">
+    <div class="footer-inner container">
+
+      <div class="footer-brand">
+        <img src="images/logo.jpg" class="logo-img footer-logo-img" alt="Vua Bún Bò logo">
+        <div>
+          <div class="footer-name">Vua Bún Bò</div>
+          <div class="footer-tagline" data-i18n="footer.tagline">King of Bún Bò Huế</div>
+        </div>
+      </div>
+
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4 data-i18n="footer.visitUs">Visit Us</h4>
+          <p>11800 Bellaire Blvd<br>Houston, TX 77072</p>
+          <p><a href="tel:3464092336">(346) 409-2336</a></p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.hours">Hours</h4>
+          <p data-i18n-html="footer.hoursText">Mon – Wed &amp; Fri – Sun: 9AM – 5PM<br>Thursday: Closed</p>
+        </div>
+        <div class="footer-col">
+          <h4 data-i18n="footer.followUs">Follow Us</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Yelp">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.16 12.73l-4.703 1.219c-.43.111-.573-.429-.19-.643l4.251-2.427c.374-.214.791.154.642.571zm-5.025-3.44l1.701-4.519c.156-.415-.288-.74-.633-.492L12.02 7.247c-.353.254-.2.79.222.84l2.893.201zm-2.595 1.006l-2.07-4.263c-.193-.397-.72-.358-.853.062L8.37 10.62c-.133.42.284.76.676.58l3.49-1.652c.39-.184.388-.736.002-.76zm-.37 1.948c-.258-.328-.738-.24-.876.148L9.84 17.04c-.135.388.26.74.639.573l4.503-1.975c.379-.166.404-.69.043-.888z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p data-i18n="footer.copyright">&copy; 2026 Vua Bún Bò. All rights reserved. Houston, TX.</p>
+        <button class="btn btn-gold btn-sm" data-order-modal data-i18n="nav.order">Order Now</button>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- =========================================================
+       ORDER NOW MODAL
+  ========================================================= -->
+  <div class="order-modal" id="order-modal" role="dialog" aria-modal="true" aria-labelledby="order-modal-title">
+    <div class="order-modal-box">
+      <button class="order-modal-close" id="order-modal-close" aria-label="Close">&times;</button>
+
+      <!-- Logo -->
+      <div class="order-modal-logo" aria-hidden="true">
+        <img src="images/logo.jpg" class="logo-img" alt="Vua Bún Bò logo">
+      </div>
+
+      <h2 class="order-modal-heading" id="order-modal-title" data-i18n="modal.heading">Ready to Order?</h2>
+      <p class="order-modal-sub" data-i18n="modal.sub">Call us, stop by, or get it delivered</p>
+
+      <div class="order-modal-divider"></div>
+
+      <!-- Phone -->
+      <div class="order-modal-row">
+        <span class="order-modal-icon">📞</span>
+        <div>
+          <h4 data-i18n="modal.phone">Phone</h4>
+          <a href="tel:3464092336">(346) 409-2336</a>
+        </div>
+      </div>
+
+      <!-- Address -->
+      <div class="order-modal-row">
+        <span class="order-modal-icon">📍</span>
+        <div>
+          <h4 data-i18n="modal.address">Address</h4>
+          <p>11800 Bellaire Blvd<br>Houston, TX 77072</p>
+        </div>
+      </div>
+
+      <!-- Hours -->
+      <div class="order-modal-row">
+        <span class="order-modal-icon">🕐</span>
+        <div>
+          <h4 data-i18n="modal.hours">Hours</h4>
+          <div class="order-modal-hours">
+            <span><span data-i18n="modal.hours.mon-wed">Mon – Wed</span><span data-i18n="modal.hours.time">9:00 AM – 5:00 PM</span></span>
+            <span class="closed-day"><span data-i18n="modal.hours.thu">Thursday</span><span data-i18n="modal.hours.closed">Closed</span></span>
+            <span><span data-i18n="modal.hours.fri-sun">Fri – Sun</span><span data-i18n="modal.hours.time">9:00 AM – 5:00 PM</span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Services -->
+      <div class="order-modal-row">
+        <span class="order-modal-icon">🍽️</span>
+        <div>
+          <h4 data-i18n="modal.services">Services</h4>
+          <div class="order-modal-services">
+            <span data-i18n="modal.svc1">Dine-In</span>
+            <span data-i18n="modal.svc2">Takeout</span>
+            <span data-i18n="modal.svc3">No-Contact Delivery</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="order-modal-cta">
+        <a href="tel:3464092336" class="btn btn-gold" data-i18n="modal.callNow">Call Now — (346) 409-2336</a>
+        <a href="https://www.doordash.com/en/store/vua-bun-bo-houston-31176393/45520184/?srsltid=AfmBOoqyYh4-wttKcV9vwXUJsajiZwN6na3HK_WGKMWtbgqCtlaMoIBH"
+           class="btn btn-doordash" target="_blank" rel="noopener noreferrer">
+          <span data-i18n="modal.doordash">Order on DoorDash</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- =========================================================
+       LANGUAGE SPLASH
+  ========================================================= -->
+  <div id="lang-splash" class="lang-splash" role="dialog" aria-modal="true" aria-label="Choose your language">
+    <div class="lang-splash-box">
+      <img src="images/logo.jpg" class="lang-splash-logo" alt="Vua Bún Bò logo">
+      <h1 class="lang-splash-welcome">Welcome <span class="lang-splash-sep">·</span> Chào Mừng</h1>
+      <p class="lang-splash-sub">Choose your language &nbsp;/&nbsp; Chọn ngôn ngữ</p>
+      <div class="lang-splash-btns">
+        <button class="lang-splash-btn" data-splash-lang="en">
+          <span class="lang-splash-flag">🇺🇸</span>
+          <span class="lang-splash-label">English</span>
+        </button>
+        <button class="lang-splash-btn" data-splash-lang="vi">
+          <span class="lang-splash-flag">🇻🇳</span>
+          <span class="lang-splash-label">Tiếng Việt</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
