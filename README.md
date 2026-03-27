@@ -2,7 +2,7 @@
 
 Official website for **Vua Bún Bò**, Houston's authentic Bún Bò Huế restaurant.
 
-🌐 **Live site:** *(Vercel URL — update after deploy)*
+🌐 **Live site:** https://vua-bun-bo-website.vercel.app
 
 ---
 
